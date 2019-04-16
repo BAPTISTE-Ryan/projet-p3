@@ -1,0 +1,94 @@
+ html{
+ 
+ }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+    position: fixed;
+  top: 0;
+  width: 100%;
+   font-family: Verdana;
+opacity:0.7;
+}
+
+li {
+  float: left;
+}
+
+.inputs{  color: white;
+  /* text-align: center;    */
+  background-color: #111;
+   display: block;
+   
+  padding: 14px 64px;
+   }
+
+   button{  color: white;
+  /* text-align: center;    */
+  background-color: #111;
+   display: block;
+   
+  padding: 14px 64px;
+   }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: black;
+}
+
+.main_search{
+
+  display: flex; 
+  color:grey;
+  justify-content:center;
+  
+ 
+  align-items: center;
+  font-family: Serif;
+  /* padding: 14px 94px; */
+ background-color: #111;
+  padding-left:150px;
+  padding-right:150px;
+  font-size:30px;
+}
+.form_search{
+  
+  padding-top:200px;
+  padding-right:650px;
+  margin-left:auto;
+  margin-right:auto;
+ 
+  width:50px;
+  opacity:0.6;
+ 
+} 
+.undertext{
+width:500px;
+color:white;
+font-weight:bold;
+font-family: Verdana;
+padding-left:0px;
+margin-left:auto;
+margin-right:auto;
+ font-size:30px;
+/* align-items:center;
+justify-content:center; */
+
+}
+
+
+.librarium{width: 90px;}

@@ -1,0 +1,16 @@
+org\occ\p3\service\WorkServiceImpl.class
+org\occ\p3\service\BatchServiceImpl.class
+org\occ\p3\service\UserServiceImpl.class
+org\occ\p3\service\BatchService.class
+org\occ\p3\service\BorrowServiceImpl.class
+org\occ\p3\service\BatchServiceImpl$3.class
+org\occ\p3\service\BatchServiceImpl$2.class
+org\occ\p3\service\MemberService.class
+org\occ\p3\service\WorkService.class
+org\occ\p3\service\BatchServiceImpl$4.class
+org\occ\p3\service\MemberServiceImpl.class
+org\occ\p3\service\BorrowService.class
+org\occ\p3\service\BatchServiceImpl$1.class
+org\occ\p3\service\BookService.class
+org\occ\p3\service\BookServiceImpl.class
+org\occ\p3\service\UserService.class

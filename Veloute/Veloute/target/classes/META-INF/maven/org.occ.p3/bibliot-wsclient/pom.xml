@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+	 <groupId>org.occ.p3</groupId>
+	<artifactId>bibliot-wsclient</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name></name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+ 
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>jaxws-maven-plugin</artifactId>
+                <version>2.5</version>
+                <executions>
+            <!--Generate webservice client-->
+            <execution>
+					<id>wsimport-for-all</id>
+					<goals>
+						<goal>wsimport</goal>
+					</goals>
+					<configuration>
+						<sourceDestDir>${project.basedir}/src/main/java/</sourceDestDir>
+						<wsdlUrls>
+							<wsdlUrl>http://lfr028236:8080/bibliot-webservice-new/ws/WorkWebService?wsdl</wsdlUrl>
+							<wsdlUrl>http://lfr028236:8080/bibliot-webservice-new/ws/UserWebService?wsdl</wsdlUrl>
+							<wsdlUrl>http://lfr028236:8080/bibliot-webservice-new/ws/BorrowWebService?wsdl</wsdlUrl>
+							<wsdlUrl>http://lfr028236:8080/bibliot-webservice-new/ws/MemberWebService?wsdl</wsdlUrl>
+							<wsdlUrl>http://lfr028236:8080/bibliot-webservice-new/ws/WebServiceBatch?wsdl</wsdlUrl>
+						</wsdlUrls>
+						<encoding>UTF-8</encoding>
+						</configuration>
+				</execution>
+        </executions>
+      </plugin>
+    </plugins>
+
+  </build>
+</project>

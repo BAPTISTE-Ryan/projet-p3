@@ -1,0 +1,13 @@
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime"
+		   version="2.0">
+
+
+	<endpoint name="WorkWebServiceWeb"   implementation="org.occ.p3.webservice.WorkWebService"   url-pattern="/ws/WorkWebService" />
+	<endpoint name="UserWebServiceWeb"   implementation="org.occ.p3.webservice.UserWebService"   url-pattern="/ws/UserWebService" />
+	<endpoint name="BorrowWebServiceWeb" implementation="org.occ.p3.webservice.BorrowWebService" url-pattern="/ws/BorrowWebService" />
+	<endpoint name="MemberWebServiceWeb" implementation="org.occ.p3.webservice.MemberWebService" url-pattern="/ws/MemberWebService" />
+    <endpoint name="BatchWebServiceWeb"  implementation="org.occ.p3.webservice.WebServiceBatch"  url-pattern="/ws/WebServiceBatch" /> 
+
+
+ 
+</endpoints>

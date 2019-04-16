@@ -1,0 +1,5 @@
+org\occ\p3\consumer\repository\BorrowRepository.class
+org\occ\p3\consumer\repository\MemberRepository.class
+org\occ\p3\consumer\repository\WorkRepository.class
+org\occ\p3\consumer\repository\UserRepository.class
+org\occ\p3\consumer\repository\BookRepository.class

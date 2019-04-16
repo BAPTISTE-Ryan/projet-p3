@@ -1,0 +1,71 @@
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	font-family: Verdana;
+	
+}
+
+li {
+	float: left;
+}
+
+.inputs {
+	color: white;
+	/* text-align: center;    */
+	background-color: #bdc3cc;
+	/*background-color: #111;*/
+	display: block;
+	/*padding: 14px 64px;*/
+	
+	padding: 7px 5px;
+	position: 50px,40px;
+border-color: grey;
+     border-radius:5px;
+      -moz-border-radius:5px;
+      -webkit-border-radius:25px;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+ 	padding: 9px 13px; 
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	background-color: black;
+}
+
+.form_class {
+	display: flex;
+	flex-direction: row;
+	color: white;
+	font-size: 15px;
+}
+
+.inner_form_class_one {
+	display: flex;
+	flex-direction: column;
+	width: auto;
+}
+
+.inner_form_class_two {
+	display: flex;
+	flex-direction: column;
+	width: auto;
+}
+
+
+.imagelogin {
+	height: 50%;
+	width: 8%;
+}

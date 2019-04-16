@@ -1,0 +1,6 @@
+org\occ\p3\webservice\BorrowWebService.class
+org\occ\p3\webservice\WebServiceBatch.class
+org\occ\p3\webservice\WorkWebService.class
+toerase\Toerase.class
+org\occ\p3\webservice\MemberWebService.class
+org\occ\p3\webservice\UserWebService.class

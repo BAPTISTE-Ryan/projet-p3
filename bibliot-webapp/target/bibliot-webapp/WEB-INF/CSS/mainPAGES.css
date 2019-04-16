@@ -1,0 +1,55 @@
+
+
+ 
+
+ html{
+ background-color:peru;
+ 
+background: linear-gradient(110deg, #fdcd3b 50%, #ffed4b 90%);
+ }
+
+ 
+
+
+
+
+.main_search{
+
+  display: flex; 
+  color:green;
+  justify-content:center;
+  
+ 
+  align-items: center;
+  font-family: Serif;
+  /* padding: 14px 94px; */
+ background-color: #111;
+  padding-left:150px;
+  padding-right:150px;
+  font-size:30px;
+}
+.form_search{
+  
+  padding-top:200px;
+  padding-right:365px;
+  padding-left:0px;
+  margin-left:auto;
+  margin-right:auto;
+ width:500px;
+  width:50px;
+ align-items:center;
+justify-content:center; 
+} 
+.undertext{
+width:500px;
+color:white;
+font-weight:bold;
+font-family: Verdana;
+padding-left:0px;
+margin-left:auto;
+margin-right:auto;
+ font-size:30px;
+/* align-items:center;
+justify-content:center; */
+
+}

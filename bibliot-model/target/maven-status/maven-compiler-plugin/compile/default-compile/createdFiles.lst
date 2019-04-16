@@ -1,0 +1,6 @@
+org\occ\p3\model\Borrow.class
+org\occ\p3\model\Library.class
+org\occ\p3\model\Member.class
+org\occ\p3\model\Work.class
+org\occ\p3\model\Book.class
+org\occ\p3\model\User.class
